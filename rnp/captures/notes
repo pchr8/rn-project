@@ -1,0 +1,11 @@
+https://fancyssl.hboeck.de/
+        178.63.68.96
+https://tls13.crypto.mozilla.org/
+        52.32.149.186
+
+filters:
+        ip.addr == 178.63.68.96
+        ssl and ip.addr == 178.63.68.96
+
+https://tools.ietf.org/html/draft-ietf-tls-tls13-24#section-2
+

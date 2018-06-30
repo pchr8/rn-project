@@ -1,0 +1,11 @@
+-- will be using TLS 1.3
+        -- with wireshark demo
+        -- with basic description
+==============================================================================
+.. can I do it self-signed on my server?
+Commands:
+        first,  generate both certs:
+                openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes  
+        client and server:
+                openssl s_server -cert ./cert.pem -key ./key.pem -accept 8443 -tls1_1
+                openssl s_client -connect 127.0.0.1:8443

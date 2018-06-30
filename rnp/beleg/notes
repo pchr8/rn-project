@@ -1,0 +1,28 @@
+https://en.wikipedia.org/wiki/Transport_Layer_Security
+
+SSL is older and deprecated
+
+https://twitter.com/shanselman/status/187572289724887041?lang=en you may be takling to satan
++ symantec SSL what happened
+
+
+TLS checks:
+        - privacy
+        -- idenitity
+        -- reliability / integrity
+
+Internet draft / internet standard
+revisions
+
+https://upload.wikimedia.org/wikipedia/commons/4/46/Diffie-Hellman_Key_Exchange.svg Diffie-Hellman
+
+http://blog.catchpoint.com/2017/05/12/dissecting-tls-using-wireshark/
+
+https://tools.ietf.org/html/rfc5246 alert versions 
+alert 70 -- chromium and unmatched version
+        in hex 
+        112 in dec -- 1-> fatal, 12-> ..
+https://blogs.msdn.microsoft.com/kaushal/2012/10/05/ssltls-alert-protocol-the-alert-codes/ with explanation -- recognized, but not supported
+
+
+https://tlswg.github.io/tls13-spec/draft-ietf-tls-tls13.html tls draft latest
